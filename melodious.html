@@ -1,0 +1,97 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <!--Cabeçalho presente em todas as abas do projeto para uma melhor guia do usuário-->
+        <nav id="header">
+            <a href="index.html"><img src="IMG/Logo (1).png" width="125" height="100"></a>
+            <a href="tierlist.html">Tier List</a>
+            <span><a href="login.html">Login</a> <a href="cadastro.php">Registrar</a></span>
+        </nav>
+        <hr>    
+        <div id=index>
+            <div id="explica">
+                <p></p>
+            </div>
+            <p><strong>Diva Melodiosa</strong></p>
+        <img class="skill" src="IMG/skill.png" height="32" width="32">
+        <h5>De Cantora a Maestra</h5>
+        <div id=content1>
+            <div id="deck">
+                <!--Tabela que apresenta o baralho-->
+                <table>
+                    <tr>
+                        <th><img src="IMG/melodious/score.webp" onmouseover=score() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/score.webp" onmouseover=score() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/score.webp" onmouseover=score() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/soprano.webp" onmouseover=soprano() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/soprano.webp" onmouseover=soprano() onmouseout=fora() height=102 width=70></th>
+                    </tr>
+                    <tr>
+                        <th><img src="IMG/melodious/soprano.webp" onmouseover=soprano() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/mozarta.webp" onmouseover=mozarta() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/sonata.webp" onmouseover=sonata() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/sonata.webp" onmouseover=sonata() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/schopina.webp" onmouseover=schopina() onmouseout=fora() height=102 width=70></th>
+                    </tr>
+                    <tr>
+                        <th><img src="IMG/melodious/solo.webp" onmouseover=solo() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/solo.webp" onmouseover=solo() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/solo.webp" onmouseover=solo() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/ostinato.webp" onmouseover=ostinato() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/harpie/tuffon.webp" onmouseover=tufao() onmouseout=fora() height=102 width=70></th>
+                    </tr>
+                    <tr>
+                        <th><img src="IMG/harpie/tuffon.webp" onmouseover=tufao() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/harpie/tuffon.webp" onmouseover=tufao() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/primeiro.webp" onmouseover=primeiro() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/primeiro.webp" onmouseover=primeiro() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/primeiro.webp" onmouseover=primeiro() onmouseout=fora() height=102 width=70></th>
+                    </tr>
+                    <tr>
+                        <th><img src="IMG/melodious/skill.webp" onmouseover=skill() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/skill.webp" onmouseover=skill() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/prision.webp" onmouseover=prision() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/prision.webp" onmouseover=prision() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/tth.webp" onmouseover=tth() onmouseout=fora() height=102 width=70></th>
+                    </tr>
+                    <tr>
+                        <th><img src="IMG/melodious/bloom.webp" onmouseover=bloom() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/bloom.webp" onmouseover=bloom() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/schuberta.webp" onmouseover=schuberta() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/schuberta.webp" onmouseover=schuberta() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/schuberta.webp" onmouseover=schuberta() onmouseout=fora() height=102 width=70></th>
+                    </tr>
+                    <tr>
+                        <th><img src="IMG/melodious/prima.webp" onmouseover=prima() onmouseout=fora() height=102 width=70></th>
+                        <th><img src="IMG/melodious/prima.webp" onmouseover=prima() onmouseout=fora() height=102 width=70></th>
+                    </tr>
+                </table>
+            </div>
+            <div id="explicacao">
+                <!--Lista não ordenada que explica a forma de se utilizar o mesmo-->
+                <ul>
+                    <li>A ideia geral do deck é controlar o campo usando a fusão Bloom Diva, que faz com que monstros invocados especialmente que atacarem ela sejam destruidos</li>
+                    <li><strong>Jogando o turno 1</strong></li>
+                    <ul>
+                        <li>Sua ideia inicial é terminar com a Bloom Diva e magias/armadilhas que ajudem a Bloom Diva a se manter no campo</li>
+                        <li>O melhor combo de turno 1 é usar a magia "primeiro movimento solo" e invocar a soprano, ter na mão a Sonata e invocar ela.</li>
+                        <li>Ativar o efeito da soprano de realizar fusão e invocar a Bloom Diva.</li>
+                        <li>Escolha as cartas que irá colocar para baixo e termine seu turno</li>
+                    </ul>
+                    <li><strong>Jogando o turno 2</strong></li>
+                    <ul>
+                        <li>Melodiosa turno 2 tende a ser bem complicado, já que você deseja colocar a Bloom Diva sem que seu oponente possa responder a isso.</li>
+                        <li>Siga as mesmas ideias do turno 1 para executar o seu campo, tentando retirar efeitos do seu oponente em cartas que não sejam tão valiosas e foque em finalizar em retomar as rédeas do jogo para si.</li>
+                    </ul>
+                    <input type="button" value="Like" onclick="like()">
+                </ul>
+            </div>
+        </div>
+    </body>
+</html>

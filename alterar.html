@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <!--Cabeçalho presente em todas as abas do projeto para uma melhor guia do usuário-->
+        <nav id="header">
+            <a href="index.html"><img src="IMG/Logo (1).png" width="125" height="100"></a>
+            <a href="tierlist.html">Tier List</a>
+            <span><a href="login.html">Login</a> <a>Registrar</a></span>
+        </nav>
+        <hr>    
+        <div id=login>
+            <form name="login" method=POST action="atualizar.php">            
+                <p id="asd">Nome</p>
+                <input type="text" name="nome" id="name" onfocus=focan() onfocusout=sain() pattern="[a-z\s]+$">
+                <p>Senha antiga</p>
+                <input type="password" name="senhaAntiga" id="senha" onfocus=focas() onfocusout=sais() >
+                <p>Senha nova</p>
+                <input type="password" name="senhaNova" id="senha" onfocus=focas() onfocusout=sais() >
+                <p>Confirme a senha</p>
+                <input type="password" name="senhaConfirma" id="senha" onfocus=focas() onfocusout=sais() >
+                <p>Qual sua experiência com Duel Links?</p>
+                
+                <input type="radio" name="experiencia" id="iniciante" value="iniciante">
+                <label for="inici">Iniciante</label>
+                <input type="radio" name="experiencia" value="intermediario">
+                <label for="inter">Intermediário</label>
+                <input type="radio" name="experiencia" value="experiente">
+                <label for="experiente">Experiente</label><br>
+                <label for="anos">Tempo de jogo</label>
+                <input type="number" id="anos" name="anos" onfocus=focai() onfocusout=saii() ><br><br>
+                <input type="submit" value="Enviar" id="manda" onclick=posta()>
+                
+            </form>
+        </div>
+    </body>
+</html>

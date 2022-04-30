@@ -1,0 +1,93 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <script type="text/javaScript" src="main.js"></script>
+        <script src="https://code.jquery.com/jquery-3.5.1.min.js%22%3E"></script>
+    </head>
+    <body>
+        <!--Cabeçalho presente em todas as abas do projeto para uma melhor guia do usuário-->
+        <nav id="header">
+            <a href="index.html"><img src="IMG/Logo (1).png" width="125" height="100"></a>
+            <a href="tierlist.html">Tier List</a>
+            <span><a href="login.html">Login</a> <a href="cadastro.php">Registrar</a></span>
+        </nav>
+        <hr>   
+        <div id="index"> 
+            <div id="explica">
+                <p></p>
+            </div>
+            <p><strong>Lady Harpia</strong></p>
+            <img class="skill" src="IMG/skill.png" height="32" width="32">
+            <h5>Campo de caça das harpias</h5>
+            <div id=content1>
+                <div id="deck">
+                    <!--Tabela que apresenta o baralho-->
+                    <table>
+                        <tr>
+                            <th><img src="IMG/harpie/oracle.webp" height=102 width=70 onmouseover=oracle() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/oracle.webp" height=102 width=70 onmouseover=oracle() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/channeler.webp" height=102 width=70 onmouseover=medium() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/channeler.webp" height=102 width=70 onmouseover=medium() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/channeler.webp" height=102 width=70 onmouseover=medium() onmouseout=fora()></th>
+                        </tr>
+                        <tr>
+                            <th><img src="IMG/harpie/harpist.webp" height=102 width=70 onmouseover=harpist() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/perfumer.webp" height=102 width=70 onmouseover=perfumist() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/perfumer.webp" height=102 width=70 onmouseover=perfumist() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/harpie1.webp" height=102 width=70 onmouseover=harpie1() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/harpie1.webp" height=102 width=70 onmouseover=harpie1() onmouseout=fora()></th>
+                        </tr>
+                        <tr>
+                            <th><img src="IMG/harpie/livro.webp" height=102 width=70 onmouseover=book() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/livro.webp" height=102 width=70 onmouseover=book() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/livro.webp" height=102 width=70 onmouseover=book() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/egotist.webp" height=102 width=70 onmouseover=egotist() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/egotist.webp" height=102 width=70 onmouseover=egotist() onmouseout=fora()></th>
+                        </tr>
+                        <tr>
+                            <th><img src="IMG/harpie/ninho.webp" height=102 width=70 onmouseover=nest() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/ninho.webp" height=102 width=70 onmouseover=nest() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/ninho.webp" height=102 width=70 onmouseover=nest() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/rest.webp" height=102 width=70 onmouseover=rest() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/tuffon.webp" height=102 width=70 onmouseover=tufao() onmouseout=fora()></th>
+                        </tr>
+                        <tr>
+                            <th><img src="IMG/harpie/slash.webp" height=102 width=70 onmouseover=slash() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/slash.webp" height=102 width=70 onmouseover=slash() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/slash.webp" height=102 width=70 onmouseover=slash() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/roach.webp" height=102 width=70 onmouseover=roach() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/patriarch.webp" height=102 width=70 onmouseover=patriarc() onmouseout=fora()></th>
+                         </tr>
+                        <tr>
+                            <th><img src="IMG/harpie/malevolent.webp" height=102 width=70 onmouseover=malevolent() onmouseout=fora()></th>
+                            <th><img src="IMG/harpie/dweller.webp" height=102 width=70 onmouseover=dweller() onmouseout=fora()></th>
+                        </tr>
+                    </table>
+                </div>
+                <div id="explicacao">
+                    <!--Lista não ordenada que explica a forma de se utilizar o mesmo-->
+                    <ul>
+                        <li>A ideia geral do deck é criar um campo com no minímo uma Harpie Slash Lady no turno 1 e ganhar controlando as jogadas do seu opoenente</li>
+                        <li><strong>Jogando o turno 1</strong></li>
+                        <ul>
+                            <li>Sua ideia inicial é terminar com a Slash Lady e magias/armadilhas para usar no turno do oponente</li>
+                            <li>O melhor combo de turno 1 é usar o efeito da medium, descartar a harpista e invocar a perfumista, com isso, terá uma magia pelo efeito da perfumista e um monstro no final do turno</li>
+                            <li>Use as duas harpias que colocou no campo e invoque a Slash lady</li>
+                            <li>Escolha as cartas que irá colocar para baixo e termine seu turno</li>
+                        </ul>
+                        <li><strong>Jogando o turno 2</strong></li>
+                        <ul>
+                            <li>Tente lidar com as cartas do oponente com o efeito do campo que a sua skill te da, foque em construir sua board no meio disso e termine o jogo o mais rápido possível</li>
+                            <li>Siga as mesmas ideias do turno 1 para executar o seu campo e tirar o melhor proveito dele</li>
+                        </ul>
+                        <input type="button" value="Like" onclick="like()">
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <script src="main.js"></script>
+    </body>
+</html>

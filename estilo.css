@@ -1,0 +1,195 @@
+body{
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   /*background-color: rgb(126, 127, 128);*/
+   background-image: url(IMG/bg.png);
+}
+#header{
+   display: inline;
+   margin-top: 2%;
+   transition: all 0.3s ease;
+}
+#header a:hover{
+   background-color:rgb(255, 255, 255);
+   box-shadow: 3px 3px;
+}
+#header a{
+   padding-left:2%;
+}
+span{
+   padding-left: 50%;
+}
+#index{
+   background-image: url(IMG/bg2.png);
+   background-size: 1350px 800px;
+   text-align: center;
+   border-bottom: 2px solid;
+   border-right: 2px solid;
+}
+#content{
+   text-align: center;
+   background-image: url(IMG/bg2.png);
+   background-size: 1350px 500px;
+   border-bottom: 2px solid;
+   border-right: 2px solid;
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+}
+#titulo{
+   margin-right: 50px;
+}
+#tieres{
+   margin-bottom: 5px;
+}
+#login{
+   text-align: center;
+   background-image: url(IMG/bg2.png);
+   background-size: 100 80px;
+   width: auto;
+   margin-left: 475px;
+   margin-right:525px;
+   margin-top: 100px;
+}
+#user{
+   text-align: center;
+   background-image: url(IMG/bg2.png);
+   background-size: 100 80px;
+   width: auto;
+   margin-left: 475px;
+   margin-right:525px;
+   margin-top: 100px;
+}
+input{
+   border-top: 0px;
+   border-left: 0px;
+   border-right: 1px solid;
+   border-bottom: 1px solid;
+   border-radius: 5px;
+   background-color: white
+}
+#manda{
+   margin-bottom: 3px;
+}
+#tier{
+   padding-left: 20px;
+   text-align: left;
+}
+#deck table{
+   border: 1px solid;
+}
+img{
+   border-radius: 5px;
+}
+#explicacao{
+   text-align: justify;
+   padding-right: 5px;
+   display: flex;
+}
+li{
+   padding: 5px;
+}
+#content1{
+   text-align: center;
+   background-color: rgba(240, 255, 255, 0);
+   border-bottom: 2px solid;
+   border-right: 2px solid;
+   display: flex;
+}
+#explica{
+   padding-top: 10px;
+   display: flex;
+   text-align: left;
+   width: auto;
+   margin-right: 700px;
+}
+#asd{
+   padding-top: 10px;
+}
+@media only screen and (max-width: 450px){
+   #index{
+      background-size: 411px 800px;
+   }
+   #content{
+      background-size: 411px 800px;
+   }
+   #header{
+   display: inline;
+   margin-top: 2%;
+   transition: all 0.3s ease;
+   }
+   #header a:hover{
+      background-color:aliceblue;
+      box-shadow: 3px 3px;
+   }
+   .empurra{
+      padding-left: 10px;
+   }
+   img{
+      width: 360px;
+   }
+   .img2{
+     width: 360px;
+   }
+   #header img{
+      width:130px;
+      height:120px;
+   }
+   span{
+      padding-left: 0%;
+   }
+   #login{
+      text-align: center;
+      margin-left: 0px;
+      margin-right:0px;
+      margin-top: 20px;
+   }
+   input{
+      border-top: 0px;
+      border-left: 0px;
+      border-right: 1px solid;
+      border-bottom: 1px solid;
+      border-radius: 5px;
+      background-color: white
+   }
+   #manda{
+      margin-bottom: 3px;
+   }
+   #content{
+      text-align: justify;
+      background-color: azure;
+      border-bottom: 2px solid;
+      border-right: 2px solid;
+      display:block;
+   }
+   #titulo{
+      margin-left:30px;
+   }
+   #content1{
+      text-align: center;
+      background-color: azure;
+      border-bottom: 2px solid;
+      border-right: 2px solid;
+      display:block;
+   }
+   #deck table{
+      border: 1px solid;
+   }
+   #explicacao{
+      text-align: justify;
+      padding-right: 5px;
+   }
+   #deck table{
+      height: auto;
+   }
+   #deck table img{
+      height: 60px;
+      width: 42px;
+   }
+   .skill{
+      height:64px ;
+      width: 64px;
+   }
+   #explica{
+      display:inline-block;
+   }
+}

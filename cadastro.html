@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="estilo.css">
+        <script src="main.js"></script>
+    </head>
+    <body>
+        <!--Cabeçalho presente em todas as abas do projeto para uma melhor guia do usuário-->
+        <nav id="header">
+            <a href="index.html"><img src="IMG/Logo (1).png" width="125" height="100"></a>
+            <a href="tierlist.html">Tier List</a>
+            <span><a href="login.html">Login</a> <a>Registrar</a></span>
+        </nav>
+        <hr>    
+        <div id=login>
+            <form name="login" method=POST action="insert.php">            
+                <p id="asd">Nome</p>
+                <input type="text" name="nome" id="name" onfocus=focan() onfocusout=sain() required pattern="[a-z\s]+$">
+                <p>E-mail</p>
+                <input type="email" name="email" id="email" onfocus=focae() onfocusout=saie() required>
+                <p>Senha</p>
+                <input type="password" name="senha" id="senha" onfocus=focas() onfocusout=sais() required>
+                <p>Qual sua experiência com Duel Links?</p>
+                
+                <input type="radio" name="experiencia" id="iniciante" value="iniciante">
+                <label for="inici">Iniciante</label>
+                <input type="radio" name="experiencia" value="intermediario">
+                <label for="inter">Intermediário</label>
+                <input type="radio" name="experiencia" value="experiente">
+                <label for="experi">Experiente</label><br>
+                <label for="caixa">Qual sua caixa preferida?</label>
+                    <select required>
+                        <option value="caixa"></option>
+                        <option value="caixa">The Ultimate Rising</option>
+                        <option value="caixa">Age of Discovery</option>
+                        <option value="caixa">Neo Impact</option>
+                        <option value="caixa">Flame of Tyrant</option>
+                        <option value="caixa">Valkyres Rage</option>
+                        <option value="caixa">Wonder of the Sky</option>
+                        <option value="caixa">Chaotic Compliance</option>
+                        <option value="caixa">Land of Titans</option>
+                        <option value="caixa">Crimson kingdom</option>
+                        <option value="caixa">Dragonic Force</option>
+                        <option value="caixa">Sorcerers Alliance</option>
+                        <option value="caixa">Dawn of Destiny</option>
+                        <option value="caixa">Eletric Overload</option>
+                        <option value="caixa">Echoes of Silence</option>
+                        <option value="caixa">Generation Next</option>
+                        <option value="caixa">Legendary Warriors</option>
+                        <option value="caixa">Hero Rising</option>
+                        <option value="caixa">Servants of King</option>
+                        <option value="caixa">Blades of Spirits</option>
+                        <option value="caixa">Primal Burst</option>
+                        <option value="caixa">Resonance of Contrast</option>
+                        <option value="caixa">Galactic Origin</option>
+                        <option value="caixa">Abyss Encounters</option>
+                        <option value="caixa">Destiny Rules</option>
+                        <option value="caixa">Rampage of the Forest</option>
+                        <option value="caixa">Dragonic Knights</option>
+                        <option value="caixa">Valiant Souls</option>
+                        <option value="caixa">Visions of Ice</option>
+                        <option value="caixa">Crusafers Battlegrounds</option>
+                        <option value="caixa">Spellbound Silence</option>
+                        <option value="caixa">Clash of Wings</option>
+                        <option value="caixa">Burning Nova</option>
+                        <option value="caixa">Empire of Scarlet</option>
+                        <option value="caixa">Gaia Genesis</option>
+                        <option value="caixa">Stardust Acceleration</option>
+                        <option value="caixa">Synchro Connection</option>
+                        <option value="caixa">The White Dragon of Legends</option>
+                        <option value="caixa">Power of Bravery</option>
+                        <option value="caixa">Blackstorm Rising</option>
+                        <option value="caixa">Secrets of the Ancients</option>
+                        <option value="caixa">Revolution Beggining</option>
+                        <option value="caixa">Swordbound Silence</option>
+                        <option value="caixa">Tornado of Phantoms</option>
+                        <option value="caixa">Ancient Gear Awakening</option>
+                        <option value="caixa">Absolute Inferno</option>
+                        <option value="caixa">Dimension of the Wizards</option>
+                        <option value="caixa">Warriors Unite</option>
+                        <option value="caixa">Neos Fusion</option>
+                        <option value="caixa">Lords of Shining</option>
+                        <option value="caixa">Return of the Red Eyes</option>
+                        <option value="caixa">Blazing Rose</option>
+                        <option value="caixa">Guardians of Rock</option>
+                        <option value="caixa">Cybernetic Rebellion</option>
+                        <option value="caixa">Full Metal Desperado</option>
+                        <option value="caixa">Curse of Dread</option>
+                        <option value="caixa">Valhalla Calling</option>
+                        <option value="caixa">Masters of Chaos</option>
+                        <option value="caixa">Dark Dimensions</option>
+                        <option value="caixa">Siprit of the Beast</option>
+                        <option value="caixa">Aerial Assault</option>
+                        <option value="caixa">Kings Ressonance</option>
+                        <option value="caixa">Soul of Ressurection</option>
+                        <option value="caixa">Future Horizon</option>
+                        <option value="caixa">Dragunity Overdrive</option>
+                        <option value="caixa">Masters of Shadow</option>
+                        <option value="caixa">Gladiators Storm</option>
+                        <option value="caixa">Judgement Force</option>
+                        <option value="caixa">Fortress of Gears</option>
+                        <option value="caixa">Truth Universe</option>
+                        <option value="caixa">Hero Generation</option>
+                        <option value="caixa">Flames of Heart</option>
+                        <option value="caixa">Witches Sorcery</option>
+                        <option value="caixa">Return of the Fire Kings</option>
+                        <option value="caixa">Chronicle of Glory</option>
+                        <option value="caixa">Infernity Destruction</option>
+                        <option value="caixa">Arena of Sanctuary</option>
+                        <option value="caixa">Gagaga XYZ</option>
+                        <option value="caixa">Shining Hope</option>
+                        <option value="caixa">Voltage of the Metal</option>
+                        <option value="caixa">Shark Fang</option>
+                        <option value="caixa">Tales of the Noble Knights</option>
+                        <option value="caixa">Rage of Vulcano</option>
+                        <option value="caixa">Infinite Ray</option>
+                        <option value="caixa">Blue-Eyes Revolution</option>
+                        <option value="caixa">Photon Galaxy</option>
+                        <option value="caixa">Antinomic Theory</option>
+                        <option value="caixa">Sign of Harpies</option>
+                        <option value="caixa">Eternal Stream</option>
+                        <option value="caixa">Stardust Nexus</option>
+                        <option value="caixa">The King Of Vermillion</option>
+                        <option value="caixa">Rise of Gaia</option>
+                        <option value="caixa">Darkness Gimmick</option>
+                        <option value="caixa">Evil Domination</option>
+                        <option value="caixa">Arts of Atlantis</option>
+                        <option value="caixa">Margicians Arc</option>
+                        <option value="caixa">Pendulum Genesis</option>
+                        <option value="caixa">D/D/D Apocalypse</option>
+                        <option value="caixa">Idea of Armagedon</option>
+                        <option value="caixa">Chaotic Soldiers</option>
+                    </select><br>
+                    <label for="anos">A quantos anos você joga?</label>
+                    <input type="number" id="anos" name="anos" onfocus=focai() onfocusout=saii() required><br><br>
+                <input type="submit" value="Enviar" id="manda" onclick=posta()>
+                
+            </form>
+        </div>
+    </body>
+</html>
